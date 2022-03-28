@@ -3,16 +3,16 @@ import Shape
 def test_perirectangle():
     x = 10
     y = 10
-    result = Shape.perirectangle(x,y)
-    assert x+x+y+y == result
+    r = Shape.perirectangle(x,y)
+    assert x+x+y+y == r
 
-def test_arearectangle():
+def test_areaofrectangle():
     x = 10
     y = 10
-    result = Shape.areaofrectangle(x,y)
-    assert x*y == result
+    r = Shape.areaofrectangle(x,y)
+    assert x*y == r
 
-def test_areasquare():
+def test_areaofsquare():
     x = 10
-    result = Shape.areaofsquare(x)
-    assert x**2 == result
+    r = Shape.areaofsquare(x)
+    assert x**2 == r

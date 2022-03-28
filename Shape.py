@@ -1,11 +1,11 @@
 def perirectangle(x,y):
-    return print("Perimeter Of Rectangle : ",x+x+y+y)
+    return x+x+y+y
 
 def areaofrectangle(x,y):
-    return print("Area Of Rectangle : ",x*y)
+    return x*y
 
 def areaofsquare(x):
-    return print("Area Of Square : ",x**2)
+    return x**2
 
 if __name__ == "__main__":
 
